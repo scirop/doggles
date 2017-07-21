@@ -16,9 +16,6 @@ import tensorflow as tf
 def findMatch(image_path):
 	os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
-	highest=0
-	highest_string="Bozo"
-
 	# change this as you see fit
 	#image_path = sys.argv[1]
 
@@ -133,4 +130,4 @@ def page_forbidden(e):
     #return findMatch(os.path.join(app.config['UPLOAD_FOLDER'], filename))
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=8080)
