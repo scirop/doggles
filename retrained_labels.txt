@@ -1,2 +1,12 @@
-nagraj
-doga
+beagle
+boxer
+bulldog
+corgi
+dachshund
+german shepherd
+golden retriever
+labrador retriever
+pitbull
+poodle
+rottweiler
+yorkshire terrier
