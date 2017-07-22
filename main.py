@@ -129,5 +129,5 @@ def page_forbidden(e):
                                #filename)
     #return findMatch(os.path.join(app.config['UPLOAD_FOLDER'], filename))
 
-if __name__ == '__main__':
-    app.run()
+#if __name__ == '__main__':
+#    app.run()
